@@ -1,7 +1,7 @@
 function onOpen() {
   var spreadsheet = SpreadsheetApp.getActive();
   var menuItems = [
-    {name: 'Aggiorna_stocazzo', functionName: 'get_data_general_realtime_italy'},
+    {name: 'Aggiorna_stocazzo', functionName: 'forza_aggiorna_spreadsheet'},
        
        
   ];
